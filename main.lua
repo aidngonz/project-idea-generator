@@ -1,6 +1,4 @@
--- List of 1000 algorithm-focused and fun coding project ideas
 local project_ideas = {
-    -- Algorithms and Data Structures
     "Implement a sorting algorithm (Bubble Sort, QuickSort, MergeSort).",
     "Create a binary search algorithm.",
     "Build a maze solver using depth-first search (DFS) or breadth-first search (BFS).",
@@ -67,8 +65,6 @@ local project_ideas = {
     "Create a program to perform matrix multiplication.",
     "Write a function to rotate a matrix by 90 degrees.",
     "Implement a program to check if a given string is a valid palindrome with non-alphanumeric characters ignored.",
-    
-    -- Fun Projects
     "Build a simple text-based adventure game.",
     "Create a basic simulation of a traffic light system.",
     "Build a simple rock-paper-scissors game with AI.",
@@ -147,13 +143,11 @@ local project_ideas = {
     "Create a simulation of Conway's Game of Life with interactive features."
 }
 
--- Function to select a random project idea
 function getRandomProject(ideas)
     local random_index = math.random(1, #ideas)
     return ideas[random_index]
 end
 
--- Get a random project idea and display it
 local selected_project = getRandomProject(project_ideas)
 print("Your random coding project idea is: " .. selected_project)
 
